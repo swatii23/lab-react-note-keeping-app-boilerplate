@@ -1,0 +1,42 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto;
+  padding: 2rem; */
+  text-align: center;
+  background-color: blue;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.section {
+  width: 50%;
+  height: 50%;
+  text-wrap: wrap;
+  text-align: left;
+  padding: 0 20px;
+}
+
+#input {
+  padding: 10px;
+}
+
+#output>div {
+  background-color: rgb(53, 49, 49);
+  width: 700px;
+  height: 550px;
+  color: red;
+  text-wrap: wrap;
+  padding: 10px;
+}
+
+textarea {
+  background-color: blue;
+  border: 1px solid black;
+  color: white;
+  width: 600px;
+  height: 500px;
+}
